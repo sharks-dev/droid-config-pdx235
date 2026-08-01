@@ -1,2 +1,2 @@
 #!/bin/sh
-dmsetup create --concise "$(/usr/bin/parse-android-dynparts /dev/sda73)"
+dmsetup create --concise "$(/usr/bin/parse-android-dynparts /dev/sda74)"

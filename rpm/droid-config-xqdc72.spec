@@ -1,12 +1,12 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device pdx225
-%define rpm_device xqcc72
+%define device pdx235
+%define rpm_device xqdc72
 %define vendor sony
 
 %define vendor_pretty Sony
-%define device_pretty Xperia 10 IV
+%define device_pretty Xperia 10 V
 
 %define android_version_major 15
 
@@ -32,8 +32,8 @@ Requires: libgbinder-tools
 %define pixel_ratio 1.75
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-xqcc72.inc
-%include patterns/patterns-sailfish-device-configuration-xqcc72.inc
+%include patterns/patterns-sailfish-device-adaptation-xqdc72.inc
+%include patterns/patterns-sailfish-device-configuration-xqdc72.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

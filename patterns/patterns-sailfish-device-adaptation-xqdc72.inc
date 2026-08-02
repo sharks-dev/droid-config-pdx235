@@ -5,8 +5,7 @@
 Summary: Jolla HW Adaptation xqdc72
 Requires: droid-hal-pdx235
 Requires: droid-hal-pdx235-img-boot
-# let's make a standard image for now, not lvm
-Requires: droid-hal-pdx235-kernel-modules
+Requires: droid-hal-pdx235-kernel-dtbo
 Requires: droid-config-xqdc72-sailfish
 Requires: droid-config-xqdc72-pulseaudio-settings
 Requires: droid-config-xqdc72-policy-settings

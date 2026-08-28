@@ -1,0 +1,14 @@
+[Unit]
+Description=Qualcomm Charge Control Fixup Service
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'VAL=$(cat /run/qcom-charge-control/trigger 2>/dev/null); \
+if [ "$VAL" = "1" ]; then \
+    echo "1" > /sys/class/qcom-battery/restrict_chg; \
+    echo "0" > /sys/class/qcom-battery/restrict_cur; \
+elif [ "$VAL" = "0" ]; then \
+    echo "0" > /sys/class/qcom-battery/restrict_chg; \
+    echo "1000000" > /sys/class/qcom-battery/restrict_cur; \
+fi'

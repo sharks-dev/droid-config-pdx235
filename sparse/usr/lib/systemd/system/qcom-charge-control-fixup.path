@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor MCE Charge Control Trigger File
+
+[Path]
+PathModified=/run/qcom-charge-control/trigger
+Unit=qcom-charge-control-fixup.service
+
+[Install]
+WantedBy=multi-user.target

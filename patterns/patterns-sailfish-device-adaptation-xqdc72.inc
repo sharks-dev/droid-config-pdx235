@@ -83,7 +83,6 @@ Requires: rfkill
 Requires: sailfish-devicelock-fpd
 Requires: sailfish-fpd
 Requires: droid-fake-crypt
-Requires: droid-biometry-fp
 Obsoletes: jolla-devicelock-daemon-encsfa
 Obsoletes: jolla-devicelock-plugin-encsfa
 

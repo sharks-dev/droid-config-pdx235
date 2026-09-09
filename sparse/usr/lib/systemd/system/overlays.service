@@ -2,8 +2,8 @@
 Description=Mount overlays
 DefaultDependencies=no
 Before=local-fs.target
-After=local-fs-pre.target vendor.mount odm.mount
-Requires=vendor.mount odm.mount
+After=local-fs-pre.target vendor.mount
+Requires=vendor.mount
 
 [Service]
 Type=oneshot

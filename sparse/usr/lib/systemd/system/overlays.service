@@ -7,7 +7,7 @@ Requires=vendor.mount
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/droid/mount-overlays /overlays
+ExecStart=echo foo #/usr/bin/droid/mount-overlays /overlays #Fingerprint doesn't work and causes other problems so I've commented this out for now
 RemainAfterExit=true
 
 [Install]

@@ -1,6 +1,6 @@
 AUTHOR=sharks
 EMAIL=
-BROKEN=Rejecting calls,Fingerprint,usb-modded,Dual-sim
+BROKEN=Rejecting calls,Fingerprint,Dual-sim
 FEATURES=VoLTE,More featured than Official port
 DEVICE=Xperia 10 V
 URL=https://forum.sailfishos.org/t/lineage-based-port-for-xperia-10-v-zambezi/31348/1

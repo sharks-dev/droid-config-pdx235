@@ -80,11 +80,14 @@ Requires: usb-moded
 Requires: rfkill
 
 # Enable fingerprint reader
-Requires: sailfish-devicelock-fpd
-Requires: sailfish-fpd
-Requires: droid-fake-crypt
-Obsoletes: jolla-devicelock-daemon-encsfa
-Obsoletes: jolla-devicelock-plugin-encsfa
+#Requires: sailfish-devicelock-fpd
+#Requires: sailfish-fpd
+#Requires: droid-fake-crypt
+#Obsoletes: jolla-devicelock-daemon-encsfa
+#Obsoletes: jolla-devicelock-plugin-encsfa
+
+# Fingerrprint on Zambezi still WIP, I need to borrow a device to debug with but it should be possible.
+Requires: jolla-devicelock-daemon-encsfa
 
 # Enable home encryption
 #Requires: sailfish-device-encryption

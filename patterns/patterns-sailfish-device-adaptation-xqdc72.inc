@@ -82,6 +82,7 @@ Requires: rfkill
 # Disable fingerprint reader
 Obsoletes: sailfish-devicelock-fpd
 Obsoletes: sailfish-fpd
+Obsoletes: sailfish-fpd-slave-binder
 
 # Fingerrprint on Zambezi still WIP, I need to borrow a device to debug with but it should be possible.
 Requires: jolla-devicelock-daemon-encsfa

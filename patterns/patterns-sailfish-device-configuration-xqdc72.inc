@@ -53,6 +53,15 @@ Requires: gnu-gzip
 Requires: gnu-sed
 Requires: gnu-tar
 Requires: gnu-which
+Obsoletes: busybox-symlinks-bash
+Obsoletes: busybox-symlinks-coreutils
+Obsoletes: busybox-symlinks-diffutils
+Obsoletes: busybox-symlinks-findutils
+Obsoletes: busybox-symlinks-grep
+Obsoletes: busybox-symlinks-gzip
+Obsoletes: busybox-symlinks-sed
+Obsoletes: busybox-symlinks-tar
+Obsoletes: busybox-symlinks-which
 
 %description -n patterns-sailfish-device-configuration-xqdc72
 Pattern with packages for xqdc72 configurations

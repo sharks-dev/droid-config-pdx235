@@ -79,13 +79,13 @@ Requires: usb-moded
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 Requires: rfkill
 
-# Disable fingerprint reader
-Obsoletes: sailfish-devicelock-fpd
-Obsoletes: sailfish-fpd
-Obsoletes: sailfish-fpd-slave-binder
-
-# Fingerrprint on Zambezi still WIP, I need to borrow a device to debug with but it should be possible.
-Requires: jolla-devicelock-daemon-encsfa
+# Enable fingerprint reader
+Requires: sailfish-devicelock-fpd
+Requires: sailfish-fpd
+Requires: sailfish-fpd-slave-binder
+Requires: sailfish-gk-aidl-bridge
+Obsoletes: jolla-devicelock-daemon-encsfa
+Obsoletes: jolla-devicelock-plugin-encsfa
 
 # Enable home encryption
 #Requires: sailfish-device-encryption

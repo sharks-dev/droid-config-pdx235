@@ -1,6 +1,6 @@
 AUTHOR=sharks
 EMAIL=sharks.dev.000@gmail.com
-BROKEN=Fingerprint,Dual-sim,Bluetooth calls
-FEATURES=VoLTE,All cameras working,Better than Jolla port
+BROKEN=Dual-sim,Bluetooth calls
+FEATURES=VoLTE,All cameras working,Fingerprint
 DEVICE=Xperia 10 V
 URL=https://forum.sailfishos.org/t/lineage-based-port-for-xperia-10-v-zambezi/31348/1
